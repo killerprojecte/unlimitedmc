@@ -1,492 +1,573 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="zxx">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>无限永恒服务器 | Minecraft 中文服务器</title>
-    <meta name="keywords" content="我的世界,Minecraft,Unlimited,无限永恒" />
-    <meta name="description" content="无限永恒服务器是适用于Minecraft 游戏玩家的多人游戏平台" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous" />
-    <script>
-        var _hmt = _hmt || [];
-        (function () {
-            var hm = document.createElement("script");
-            hm.src = "https://hm.baidu.com/hm.js?613715e86a534a1f660d85cd0a42c684";
-            var s = document.getElementsByTagName("script")[0];
-            s.parentNode.insertBefore(hm, s);
-        })();
-    </script>
+    <!--====== Required meta tags ======-->
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--====== Title ======-->
+    <title> UnlimitedMC - 无限永恒服务器 </title>
+    <!--====== Bootstrap css ======-->
+    <link rel="stylesheet" href="static/css/bootstrap.min.css">
+    <!--=== Owl-Carousel ===-->
+    <link rel="stylesheet" href="static/css/owl.carousel.min.css">
+    <!--====== Magnific ======-->
+    <link rel="stylesheet" href="static/css/magnific-popup.css">
+    <!--===nice-select===-->
+    <link rel="stylesheet" href="static/css/nice-select.css">
+    <!--====== Animate CSS ======-->
+    <link rel="stylesheet" href="static/css/animate.min.css">
+    <!--====== Font Awesome ======-->
+    <link rel="stylesheet" href="static/css/font-awesome.min.css">
+    <!--====== Main Css ======-->
+    <link rel="stylesheet" href="static/css/style.css">
+    <!--====== Responsive Css ======-->
+    <link rel="stylesheet" href="static/css/responsive.css">
 </head>
 
 <body>
-    <div id="index-page" class="page1">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <nav id="nav" class="navbar navbar-expand-lg">
-                        <a class="navbar-brand" href="#">
-                            <img src="/assets/logo.png" height="30" />
-                        </a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse"
-                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav ml-auto">
-                                <li class="nav-item">
-                                    <a class="nav-link text-white" href="/">首页 <span
-                                            class="sr-only">(current)</span></a>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown"
-                                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        下载客户端 </a>
-                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item" href="https://qm.qq.com/cgi-bin/qm/qr?k=gEqlsPpDVIWmLjtVdkGdl9K-1XyseYOa&jump_from=webapi">
-                                            QQ群文件下载 </a>
-                                        <a class="dropdown-item" href="http://1.mabio.top:9956/download/Unlimited%E5%90%AF%E5%8A%A8%E5%99%A8-V1.0.3.zip"> 镜像下载
-                                        </a>
-                                    </div>
-                                </li>
-                                
-                                <li class="nav-item">
-                                    <a class="nav-link text-white"
-                                        href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=431876428">反馈</a>
-								</li>
-									<li cla	="nav-item">
-									                                    <a class="nav-link text-white"
-                                        href="https://uwm.speedtestcustom.com/">网络不好?来测个速&nbsp;</a>
-                                    </li>
-									<li cla	="nav-item">
-									                                    <a class="nav-link text-white"
-                                        href="http://1.mabio.top:9909/">mcMMO技能查询&nbsp;</a>
-                                    </li>
-								<li cla	="nav-item">
-									                                    <a class="nav-link text-white"
-                                        href="http://1.mabio.top:9090/">封禁查询&nbsp;</a>
-                                    </li>
-								<li cla	="nav-item">
-									                                    <a class="nav-link text-white"
-                                        href="http://1.mabio.top:10001/">Jenkins CI&nbsp;</a>
-                                    </li>
-                            </ul>
-                        </div>
-                    </nav>
-                </div>
-            </div>
-        </div>
-
-        <div class="mjumbotron">
-            <div class="mtext-wapper">
-                <p class="mtext-hello color-white">
-                    <span class="text-warning">&nbsp; &nbsp;</span> <span class="text-warning">&nbsp;</span><span class="text-warning">&nbsp;&nbsp;</span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;我的世界&nbsp; 无限永恒服务器&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<span class="text-warning">&nbsp; &nbsp;</span>
-                </p>
-                <p class="mtext-info">轻量级RPG 和 原版生存 以及 有趣的特殊玩法</p>
-                <a href="#download" class="mbuttonf"> 加入地址&nbsp;</a>
-                <a href="https://ci.huangyuhui.net/job/HMCL/lastSuccessfulBuild/artifact/HMCL/build/libs/HMCL-3.3.196.exe" target="_blank" class="mbuttonf">客户端下载&nbsp;</a>
-            </div>
+    <!--====== Preloader Start ======-->
+    <div id="preloader">
+        <div class="loader-cubes">
+            <div class="loader-cube1 loader-cube"></div>
+            <div class="loader-cube2 loader-cube"></div>
+            <div class="loader-cube4 loader-cube"></div>
+            <div class="loader-cube3 loader-cube"></div>
         </div>
     </div>
-<div class="container page">
-    <div class="row">
-            <div class="col-md-12">
-                <h4 id="download">加入服务器&nbsp;</h4>
-            </div>
-      <div class="col-md-6">
-<p>
-          <b>Windows 安装我的世界&nbsp; [其它系统自行查阅百度]</b>
-          <br />
-                    <small>安装成功后，请按照个人喜好进行配置</small>
-        </p>
-<a class="install-link" href="http://1.mabio.top:9956/download/Unlimited%E5%90%AF%E5%8A%A8%E5%99%A8-V1.0.2.zip"
-                    target="_blank"> 请不要开挂 点击下载&nbsp;</a>
-                <hr>
-                <p><b>Java进入服务器地址:&nbsp; &nbsp;[端口25565 可有可无]</b></p>
-        <p><strong>1.mabio.top</strong></p>
-        <p> <b>基岩版进入服务器地址</b></p>
-        <p>同Java版 端口为基岩版默认 19132&nbsp;</p>
-      </div>
-            <div class="col-md-6">
-                <div class="img-box">
-                    <img src="/assets/view.png" class="img-fluid" alt="Responsive image" />
-                </div>
-            </div>
-  </div>
-    </div>
+    <!--====== Preloader End ======-->
 
-    <div class="page sponsor" id="app-sponsor">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-xl-12">
-<h4>赞助我们</h4>
-					
-                    <div class="text-center" style="margin-top: 30px">
-                        <!-- <a href=" https://docs.qq.com/sheet/DYWJNVXhib0dtamh2" target="_blank"
-                                class="mbutton">更多赞助者名单</a> -->
-                        <a href="javascript:void(0)" class="mbutton" @click="toPay(true)">[游戏内充值] /cpay&nbsp;</a>
+    <!--====== Header Part Start ======-->
+    <header class="header-one sticky-header">
+        <div class="header-navigation">
+            <div class="container-fluid d-flex align-items-center justify-content-between container-1470">
+                <div class="header-left">
+                    <div class="site-logo">
+                        <a href="index.html"><img src="static/picture/logo.png" alt="Markpro"></a>
                     </div>
-                    <!-- 在线支付对话框 -->
-                    <div class="paycode" style="display: none;" v-show="paycode">
-                        <div class="paycode-payload">
-                            <hr>
-                            <p>游戏内充值输入 /cpay</p>
-							<p>您的赞助将是我们维护服务器的资金</p>
-                            <div style="text-align: center;">
-                                <div class="mbutton" @click="toPay(false)">关闭</div>
+                </div>
+                <div class="header-right d-flex align-items-center justify-content-end">
+                    <div class="site-nav-menu">
+                        <ul class="primary-menu">
+                            <li class="current">
+                                <a href="index.html">主页</a>
+                            </li>
+                            <li>
+                                <a href="https://uwm.speedtestcustom.com/">网络测速</a>
+                            </li>
+							<li>
+                                <a href="about-us.html">关于我们</a>
+                            </li>
+                            <li>
+                                <a class="drop" href="#0">更多功能</a>
+                                <ul class="submenu">
+                                    <li><a href="http://1.mabio.top:9090">封禁查询</a></li>
+                                    <li><a href="http://1.mabio.top:10001">Jenkins CI</a></li>
+                                    <li><a href="https://space.bilibili.com/1996047961">Bilibili</a></li>
+                                    <li><a href="http://1.mabio.top:9909">mcMMO技能查询</a></li>
+                                    <li><a href="https://qm.qq.com/cgi-bin/qm/qr?k=gEqlsPpDVIWmLjtVdkGdl9K-1XyseYOa&jump_from=webapi">QQ群</a></li>
+                                    <li><a href="http://1.mabio.top:9956/download/Unlimited启动器-V1.0.3.zip">客户端下载</a></li>
+                                </ul>
+                            </li>
+                        <a href="#0" class="nav-close"><i class="fal fa-times"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--====== Header Part End ======-->
+
+
+    <!--====== Banner Start ======-->
+    <section class="banner">
+        <div class="shape">
+            <img src="static/picture/banner-shap-1.png" class="shape-1" alt="banner-shap">
+        </div>
+        <div class="shape">
+            <img src="static/picture/banner-shap-2.png" class="shape-2" alt="banner-shap">
+        </div>
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="banner-content">
+                        <h1 class="head">
+                            UnlimitedMC 无限永恒服务器
+                        </h1>
+                        <p class="text">
+                            轻量RPG 加上原始生存 一个绝配的服务器
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xl-5 col-lg-6 wow fadeInUp">
+                    <div class="banner-icon">
+                        <div class="icon icon-1"><img src="static/picture/icon-1.png" alt="banner-icon"></div>
+                        <div class="icon icon-2"><img src="static/picture/icon-2.png" alt="banner-icon"></div>
+                        <div class="icon icon-3"><img src="static/picture/icon-3.png" alt="banner-icon"></div>
+                        <div class="icon icon-4"><img src="static/picture/icon-4.png" alt="banner-icon"></div>
+                        <div class="icon icon-5"><img src="static/picture/icon-5.png" alt="banner-icon"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--====== Banner End ======-->
+
+
+    <!--====== Partners Start ======-->
+    <!--====== Partners End ======-->
+
+    <!--====== Category Start  ======-->
+    <section class="category">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 wow fadeInUp col-md-6">
+                    <div class="category-box">
+                        <a href="marktetplace.html" class="thumb">
+                            <img src="static/picture/category-1.png" alt="">
+                        </a>
+                        <div class="content">
+                            <h4 class="lasthead">
+                                <a class="link" href="product.html" class="link">
+                                    轻量RPG
+                                </a> 
+                            </h4>
+                            <a href="marktetplace.html" class="link">强大的RPG物品</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow fadeInUp col-md-6">
+                    <div class="category-box">
+                        <a href="marktetplace.html" class="thumb">
+                            <img src="static/picture/category-2.png" alt="">
+                        </a>
+                        <div class="content">
+                            <h4 class="lasthead">
+                                <a class="link" href="product.html" class="link">
+                                    趣味生存
+                                </a> 
+                            </h4> 
+                            <a href="marktetplace.html" class="link">与其他玩家一起生存</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow fadeInUp col-md-6">
+                    <div class="category-box">
+                        <a href="marktetplace.html" class="thumb">
+                            <img src="static/picture/category-3.png" alt="">
+                        </a>
+                        <div class="content">
+                            <h4 class="lasthead">
+                                <a class="link" href="product.html" class="link">
+                                    领地保护
+                                </a> 
+                            </h4>  
+                            <a href="marktetplace.html" class="link">保护你的建筑物不受破坏</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow fadeInUp col-md-6">
+                    <div class="category-box">
+                        <a href="marktetplace.html" class="thumb">
+                            <img src="static/picture/category-4.png" alt="">
+                        </a>
+                        <div class="content">
+                            <h4 class="lasthead">
+                                <a class="link" href="product.html" class="link">
+                                    会员制度
+                                </a> 
+                            </h4>   
+                            <a href="marktetplace.html" class="link">会员拥有更多高级功能权限</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow fadeInUp col-md-6">
+                    <div class="category-box">
+                        <a href="marktetplace.html" class="thumb">
+                            <img src="static/picture/category-5.png" alt="">
+                        </a>
+                        <div class="content">
+                            <h4 class="lasthead">
+                                <a class="link" href="product.html" class="link">
+                                    封禁查询
+                                </a> 
+                            </h4>    
+                            <a href="marktetplace.html" class="link">在浏览器上查找被封禁的玩家</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow fadeInUp col-md-6">
+                    <div class="category-box">
+                        <a href="marktetplace.html" class="thumb">
+                            <img src="static/picture/category-6.png" alt="">
+                        </a>
+                        <div class="content">
+                            <h4 class="lasthead">
+                                <a class="link" href="product.html" class="link">
+                                    mcMMO
+                                </a> 
+                            </h4>  
+                            <a href="marktetplace.html" class="link">支持在网页上查询mcMMO技能等级</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--====== Category End  ======-->
+
+    <!--====== Featured Start  ======-->
+    <section class="feature item">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-lg-5 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="section-head">
+                        <h2 class="title"> 支持的功能</h2>
+                        <p class="text">在这里你可以找到服务器支持的功能</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 wow fadeInUp">
+                    <!-- owl-carousel owl-theme -->
+                    <div class="totalfetaure owl-carousel owl-theme">
+                        <div class="feature-box item">
+                            </a>
+                            <div class="content">
+                                <h5> 
+                                    <a href="product-details.html">
+                                        封禁查询
+                                    </a> 
+                                </h5>
+                                <p class="text">
+                                    Powered By Litebans
+                                </p>
+                                <div class="past-part">
+                                    <div class="left-content">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="feature-box item">
+                            </a>
+                            <div class="content"> 
+                                <h5>
+                                    <a href="product-details.html">
+                                        mcMMO技能查询
+                                    </a>
+                                </h5>
+                               
+                                <p class="text">
+                                    From Github
+                                </p>
+                                <div class="past-part">
+                                    <div class="left-content">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="feature-box item">
+                            </a>
+                            <div class="content"> 
+                                <h5>
+                                    <a href="product-details.html">
+                                        RPG物品
+                                    </a>
+                                </h5>
+                                <p class="text">
+                                    采用MagicGem和MythicMobs双引擎
+                                </p>
+                                <div class="past-part">
+                                    <div class="left-content">
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--====== Featured End  ======-->
+
+
+    <!--====== Unique Themes Start  ======-->
+    <!--====== Unique Themes End  ======-->
+
+
+    <!--====== Price & Plan Start  ======-->
+    <section class="price plan">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-lg-5 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="section-head">
+                        <h2 class="title">会员介绍</h2>
+                        <p class="text">购买会员可以享受更多功能</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="link">
+                        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">
+                                    月
+                                </a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">年</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 wow fadeInUp">
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="price-box">
+                                        <a href="#0" class="link">自成一派</a>
+                                        <div class="icon">
+                                            <img src="static/picture/pricing-1.png" alt="">
+                                        </div>
+                                        <h2 class="dolar"> <sub></sub>5000DQ</h2>
+                                        <ul class="list">
+                                            <li class="list-item">
+                                                <i class="fal fa-arrow-right"></i>
+                                                <span>随身末影箱</span>
+                                            </li>
+                                            <li class="list-item">
+                                                <i class="fal fa-arrow-right"></i>
+                                                <span>随身工作台</span>
+                                            </li>
+                                            <li class="list-item">
+                                                <i class="fal fa-arrow-right"></i>
+                                                <span>mcMMO技能加成150%</span>
+                                            </li>
+                                            <li class="list-item">
+                                                <i class="fal fa-arrow-right"></i>
+                                                <span>飞行权限</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="price-box">
+                                        <a href="#0" class="link active">武林盟主</a>
+                                        <div class="icon active">
+                                            <img src="static/picture/pricing-2.png" alt="">
+                                        </div>
+                                        <h2 class="dolar"><sub></sub>10000DQ</h2>
+                                        <ul class="list">
+                                            <li class="list-item">
+                                                <i class="fal fa-arrow-right"></i>
+                                                <span>随身末影箱</span>
+                                            </li>
+                                            <li class="list-item">
+                                                <i class="fal fa-arrow-right"></i>
+                                                <span>随身工作台</span>
+                                            </li>
+                                            <li class="list-item">
+                                                <i class="fal fa-arrow-right"></i>
+                                                <span>mcMMO技能加成200%</span>
+                                            </li>
+                                            <li class="list-item">
+                                                <i class="fal fa-arrow-right"></i>
+                                                <span>飞行权限</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="price-box">
+                                        <a href="#0" class="link">飘然归隐</a>
+                                        <div class="icon">
+                                            <img src="static/picture/pricing-3.png" alt="">
+                                        </div>
+                                        <h2 class="dolar"><sub></sub>20000DQ</h2>
+                                        <ul class="list">
+                                            <li class="list-item">
+                                                <i class="fal fa-arrow-right"></i>
+                                                <span>随身末影箱</span>
+                                            </li>
+                                            <li class="list-item">
+                                                <i class="fal fa-arrow-right"></i>
+                                                <span>随身工作台</span>
+                                            </li>
+                                            <li class="list-item">
+                                                <i class="fal fa-arrow-right"></i>
+                                                <span>mcMMO技能加成400%</span>
+                                            </li>
+                                            <li class="list-item">
+                                                <i class="fal fa-arrow-right"></i>
+                                                <span>飞行权限 & 无尽方块</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="price-box">
+                                        <a href="#0" class="link">自成一派</a>
+                                        <div class="icon">
+                                            <img src="static/picture/pricing-1.png" alt="">
+                                        </div>
+                                        <h2 class="dolar"> <sub></sub>20000DQ</h2>
+                                        <ul class="list">
+                                            <li class="list-item">
+                                                <i class="fal fa-arrow-right"></i>
+                                                <span>随身末影箱</span>
+                                            </li>
+                                            <li class="list-item">
+                                                <i class="fal fa-arrow-right"></i>
+                                                <span>随身工作台</span>
+                                            </li>
+                                            <li class="list-item">
+                                                <i class="fal fa-arrow-right"></i>
+                                                <span>mcMMO技能加成150%</span>
+                                            </li>
+                                            <li class="list-item">
+                                                <i class="fal fa-arrow-right"></i>
+                                                <span>飞行权限</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="price-box">
+                                        <a href="#0" class="link active">武林盟主</a>
+                                        <div class="icon active">
+                                            <img src="static/picture/pricing-2.png" alt="">
+                                        </div>
+                                        <h2 class="dolar"><sub></sub>30000DQ</h2>
+                                        <ul class="list">
+                                            <li class="list-item">
+                                                <i class="fal fa-arrow-right"></i>
+                                                <span>随身末影箱</span>
+                                            </li>
+                                            <li class="list-item">
+                                                <i class="fal fa-arrow-right"></i>
+                                                <span>随身工作台</span>
+                                            </li>
+                                            <li class="list-item">
+                                                <i class="fal fa-arrow-right"></i>
+                                                <span>mcMMO技能加成200%</span>
+                                            </li>
+                                            <li class="list-item">
+                                                <i class="fal fa-arrow-right"></i>
+                                                <span>飞行权限</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+									</div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="price-box">
+                                        <a href="#0" class="link">飘然归隐</a>
+                                        <div class="icon">
+                                            <img src="static/picture/pricing-3.png" alt="">
+                                        </div>
+                                        <h2 class="dolar"><sub></sub>50000DQ</h2>
+                                        <ul class="list">
+                                            <li class="list-item">
+                                                <i class="fal fa-arrow-right"></i>
+                                                <span>随身末影箱</span>
+                                            </li>
+                                            <li class="list-item">
+                                                <i class="fal fa-arrow-right"></i>
+                                                <span>随身工作台</span>
+                                            </li>
+                                            <li class="list-item">
+                                                <i class="fal fa-arrow-right"></i>
+                                                <span>mcMMO技能加成400%</span>
+                                            </li>
+                                            <li class="list-item">
+                                                <i class="fal fa-arrow-right"></i>
+                                                <span>飞行权限 & 无尽方块</span>
+                                            </li>
+                                        </ul>
+                                    </div>
                             </div>
                         </div>
                     </div>
                 </div>
-</div>
+            </div>
         </div>
-    </div>
+    </section>
+    <!--====== Price & Plan End  ======-->
 
-    <footer class="footer">
+
+    <!--====== Testomonial Start  ======-->
+    <!--====== Testomonial End  ======-->
+
+
+    <!--====== Blog Start  ======-->
+    <!--====== Blog  End  ======-->
+
+    <!--====== Footer Area START ======-->
+    <footer class="footer-area">
         <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div style="font-size: 12px;color: #c2c2c2;">
-                        <p>背景版权所有 © 2021 <a class="link"
-                                href="https://github.com/Suwings">Suwings</a> All
-                            rights
-                        reserved. 文字信息版权所有&nbsp;© 2021 UnlimitedMC All rights reserved.</p>
-                        <img src="https://minecraft-mp.com/half-banner-291815.png" border="0">
-                        <p>
-                            <a class="link" href="http://www.mcbbs.net/">MCBBS&nbsp;&nbsp;</a></p><a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=gEqlsPpDVIWmLjtVdkGdl9K-1XyseYOa&jump_from=webapi"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="UNLIMITED" title="UNLIMITED"></a>
-						<a href="https://minecraft-mp.com/server-s291815" target="_blank"></a>
-                  </div>
+            <div class="row justify-content-between">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="footer-box one">
+                        <div class="logo">
+                            <img src="static/picture/logo.png" alt="">
+                        </div>
+                        <p class="text">我们努力做更好的服务器 </p>
+
+                        <div class="social">
+                            <a href="#0"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#0"><i class="fab fa-twitter"></i></a>
+                            <a href="#0"><i class="fab fa-pinterest-p"></i></a>
+                            <a href="#0"><i class="fab fa-google-plus-g"></i></a>
+                            <a href="#0"><i class="fab fa-instagram"></i></a>
+                        </div>
+						<p class="text">加入服务器地址: 1.mabio.top</p>
+						<p class="text">备用地址: 1.mabiosmp.top</p>
+                    </div>
                 </div>
             </div>
         </div>
     </footer>
-    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"
-        async></script>
-    <script src="https://public-link.oss-cn-shenzhen.aliyuncs.com/mcsm_sponsor.js"></script>
-    <script>
-        $(function () {
-            new Vue({
-                el: "#app-sponsor",
-                data: {
-                    sponsorList: [],
-                    viewSponsorList: [],
-                    isMoreSponsor: false,
-                    paycode: false
-                },
-                methods: {
-                    displayMoreSponsor: function () {
-                        this.viewSponsorList = this.sponsorList;
-                        this.isMoreSponsor = true;
-                    },
-                    toPay: function (f) {
-                        $(".paycode").removeAttr("style");
-                        this.paycode = f;
-                    }
-                },
-                mounted: function () {
-                    var that = this;
-                    var array = (this.sponsorList = window.sponsorList());
-                    for (var k in array) {
-                        for (var j in array) {
-                            if (array[k].price > array[j].price) {
-                                var tmp = array[k];
-                                array[k] = array[j];
-                                array[j] = tmp;
-                            }
-                        }
-                    }
-                    // 注意：这里所写规则并不代表永久规则，在赞助人数足够多时，
-                    // 此规则会随之改变以适应新的变化。
-                    this.sponsorList.forEach(function (item) {
-                        if (item.price >= 100) {
-                            that.viewSponsorList.push(item);
-                        }
-                    });
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-12  wow fadeInUp text-center">
+                    <p class="text">Copyright &copy; 2021.UnlimitedMC All rights reserved.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--====== Footer Area END ======-->
 
-                    console.log("赞助者列表:", this.sponsorList);
-                    console.log("感谢你们，谢谢。")
-                }
-            });
-        });
-    </script>
+    <!--====== Back to top start ======-->
+    <div class="back-to-top">
+        <a href="#0"> <i class="fas fa-arrow-up"></i> </a>
+    </div>
+    <!--====== Back to top start ======-->
+
+    <!--====== Jquery ======-->
+    <script src="static/js/jquery-3.6.0.min.js"></script>
+    <!--====== Bootstrap ======-->
+    <script src="static/js/bootstrap.bundle.min.js"></script>
+    <!--=== Owl-Carousel ===-->
+    <script src="static/js/owl.carousel.min.js"></script>
+    <!--====== Nice Select ======-->
+    <script src="static/js/jquery.nice-select.min.js"></script>
+    <!--====== Magnific ======-->
+    <script src="static/js/jquery.magnific-popup.min.js"></script>
+    <!--====== Wow ======-->
+    <script src="static/js/wow.min.js"></script>
+    <!--====== Main JS ======-->
+    <script src="static/js/main.js"></script>
 </body>
-<style>
-    html,
-    body {
-        font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Microsoft YaHei, Source Han Sans SC, Noto Sans CJK SC, WenQuanYi Micro Hei, sans-serif;
-        font-size: 15px;
-        height: 100%;
-    }
-
-    a {
-        text-decoration: none;
-        color: #304455;
-        transition: all 0.5s;
-    }
-
-    a:hover {
-        text-decoration: none;
-        color: #262b2b;
-    }
-
-    h4 {
-        margin-bottom: 30px;
-    }
-
-    .mjumbotron {
-        min-height: 500px;
-        text-align: center;
-        height: 100%;
-    }
-
-    .page1 {
-        background-color: rgb(34, 34, 34);
-        background-image: url("/assets/bg.jpg");
-        background-size: cover;
-        height: 100%;
-    }
-
-    #nav {
-        padding-top: 8px;
-        padding-bottom: 8px;
-        align-items: center;
-        background: rgba(255, 255, 255, 0);
-        /* border-bottom: 1px solid #ebf2f2; */
-    }
-
-    #nav a {
-        font-weight: 700;
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-        transition: color 0.2s;
-        font-size: 1.2rem;
-    }
-
-    .mtext-wapper {
-        position: absolute;
-        left: 0%;
-        right: 0%;
-        top: 50%;
-        transform: translateY(-60%);
-    }
-
-    .mtext-hello {
-        font-weight: 800;
-        font-size: 2rem;
-        letter-spacing: 0.04em;
-        color: white;
-    }
-
-    .mtext-info {
-        color: white;
-        font-weight: 800;
-        font-size: 1.2rem;
-        letter-spacing: 0.02em;
-    }
-
-    .install-link {
-        display: block;
-        margin: 8px 0px;
-        text-decoration: underline;
-    }
-
-    .link {
-        text-decoration: underline;
-    }
-
-    .link:hover {
-        opacity: 0.6;
-        text-decoration: underline;
-    }
-
-    .mbutton {
-        display: inline-block;
-        font-size: 1rem;
-        /* text-transform: uppercase; */
-        border: 2px solid #191e1e;
-        padding: 6px 28px;
-        font-weight: 700;
-        box-sizing: border-box;
-        overflow: hidden;
-        position: relative;
-        z-index: 0;
-        transition: all 0.5s;
-        color: rgb(41, 40, 40);
-        margin: 6px;
-        cursor: pointer;
-    }
-
-    .mbuttonf {
-        display: inline-block;
-        font-size: 1rem;
-        text-transform: uppercase;
-        border: 2px solid #dadada;
-        padding: 6px 28px;
-        font-weight: 700;
-        box-sizing: border-box;
-        overflow: hidden;
-        position: relative;
-        z-index: 0;
-        transition: all 0.5s;
-        color: #ffffff;
-        margin: 6px;
-    }
-
-    .mbutton:hover {
-        background-color: #191e1e;
-        color: white;
-        padding: 6px 32px;
-    }
-
-    .mbuttonf:hover {
-        background-color: #c2c2c2;
-        color: rgb(36, 36, 36);
-        padding: 6px 32px;
-    }
-
-    .page {
-        margin-top: 60px;
-        margin-bottom: 60px;
-    }
-
-    .img-box {
-        box-shadow: 0 0 10px rgb(46, 46, 46);
-    }
-
-    .sponsor {
-        margin-top: 120px;
-    }
-
-    .sponsor-list {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .sponsor-list img {
-        max-width: 160px;
-        max-height: 50px;
-        transition: all 1s;
-    }
-
-    .sponsor-list img:hover {
-        transform: scale(1.1);
-    }
-
-    .sponsor-list a {
-        margin: 20px 15px 0;
-        display: block;
-    }
-
-    .footer {
-        background-color: rgb(70, 70, 70);
-        padding: 60px 0px;
-        color: white;
-        font-size: 13px;
-    }
-
-    .footer a {
-        color: white;
-    }
-
-    table {
-        width: 100%;
-        margin: 0px auto;
-        border-collapse: collapse;
-        border-spacing: 0;
-        font-size: 13px;
-    }
-
-    table tr {
-        border-bottom: 1px solid #e0e0e0;
-    }
-
-    table td,
-    table th {
-        padding: 4px;
-    }
-
-    .sponsor-table {
-        max-width: 900px;
-        margin: auto;
-    }
-
-    .card-body {
-        min-height: 200px;
-    }
-
-    .card-text {
-        margin-bottom: 0;
-        text-align: center;
-        margin-top: 26px;
-    }
-
-    .card-title {
-        font-weight: 700;
-        font-size: 1.4em;
-    }
-
-    .card {
-        transition: all 0.5s;
-        padding: 10px;
-        border: 0px;
-    }
-
-    .card:hover {
-        box-shadow: 0 0 10px #7d7d7d8c;
-    }
-
-    .relative {
-        position: relative;
-    }
-
-    #nav {
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-
-    .nav-link:hover {
-        opacity: 0.8;
-    }
-
-    pre,
-    code {
-        display: block;
-        background-color: #333333;
-        color: #eee;
-        padding: 8px;
-        border-radius: 2px;
-        /* overflow-x: scroll; */
-    }
-
-    .paycode {
-        position: fixed;
-        top: 0px;
-        left: 0px;
-        right: 0px;
-        bottom: 0px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        z-index: 999;
-    }
-
-    .paycode-payload {
-        text-align: center;
-        padding: 16px;
-        max-width: 800px;
-        margin: auto;
-        background-color: white;
-        border-radius: 8px;
-        box-shadow: 0px 0px 18px rgba(26, 25, 25, 0.877);
-
-    }
-</style>
 
 </html>
